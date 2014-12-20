@@ -4,7 +4,7 @@ The `hidden` module simply hides content.
 
 ## Dependencies
 
-The Hidden module depends on one other modules:
+The Hidden module depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 
