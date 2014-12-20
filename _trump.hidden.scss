@@ -1,0 +1,19 @@
+// *************************************
+//
+//   #HIDDEN
+//
+// *************************************
+
+// The hidden module simply hides content.
+
+// Predefine the variables bellow in order to alter and enable specific features.
+$tree-hidden-namespace: $tree-namespace !default;
+
+
+
+
+
+.#{$tree-hidden-namespace}hidden,
+%#{$tree-hidden-namespace}hidden {
+    display: none !important;
+}
