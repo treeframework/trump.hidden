@@ -15,18 +15,24 @@ dependencies in the relevant way.
 ## Installation
 
 The recommended installation method is Bower, but you can install the Hidden
-module via a Git Submodule, or copy and paste.
+module via npm, Git Submodule, or copy and paste.
 
 ### Install using Bower:
 
 ```sh
-$ bower install --save tree-hidden
+$ bower install tree-hidden --save
 ```
 
 Once installed, `@import` into your project in its Trump layer:
 
 ```scss
 @import "bower_components/tree-hidden/trump.hidden";
+```
+
+### Install using npm:
+
+```sh
+$ npm install tree-hidden --save
 ```
 
 ### Install as a Git Submodule:
