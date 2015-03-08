@@ -4,18 +4,18 @@ The `hidden` module simply hides content.
 
 ## Dependencies
 
-The Hidden module depends on one other module:
+The `hidden` module depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 
-If you install the Hidden module using Bower, you will get these dependencies at
-the same time. If not using Bower, please be sure to install and `@import` these
-dependencies in the relevant way.
+If you install the `hidden` module using Bower, you will get these dependencies
+at the same time. If not using Bower, please be sure to install and `@import`
+these dependencies in the relevant way.
 
 ## Installation
 
-The recommended installation method is Bower, but you can install the Hidden
-module via npm, Git Submodule, or copy and paste.
+You can install `hidden` module via Bower, npm, Git Submodule, or copy and
+paste.
 
 ### Install using Bower:
 
@@ -55,10 +55,10 @@ in its Trump layer.
 
 ## Usage
 
-Basic usage of the Hidden module uses the required classes:
+Basic usage of the `hidden` module uses the required classes:
 
 ```html
-<ul class="hidden">
+<ul class="u-hidden">
     <li>Foo</li>
     <li>Bar</li>
     <li>Baz</li>
