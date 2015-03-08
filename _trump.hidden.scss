@@ -13,7 +13,6 @@ $tree-hidden-namespace: $tree-namespace !default;
 
 
 
-.#{$tree-hidden-namespace}hidden,
-%#{$tree-hidden-namespace}hidden {
+.#{$tree-hidden-namespace}u-hidden {
     display: none !important;
 }
