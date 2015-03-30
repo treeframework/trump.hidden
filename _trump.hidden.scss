@@ -13,6 +13,8 @@ $tree-hidden-namespace: $tree-namespace !default;
 
 
 
+// 1. Remove from flow (screen readers).
 .#{$tree-hidden-namespace}u-hidden {
     display: none !important;
+    visibility: hidden !important; // [1]
 }
