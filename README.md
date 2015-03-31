@@ -67,7 +67,7 @@ Basic usage of the `hidden` module uses the required classes:
 </ul>
 ```
 
-To turn responsive feature on, set switch to true (before you @import the file):
+To turn responsive feature on, set switch to true (before you `@import` the file):
 
 ```scss
 $tree-enable-hidden--responsive:    true;
