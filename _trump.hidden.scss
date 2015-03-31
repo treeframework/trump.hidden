@@ -7,7 +7,9 @@
 // The hidden module simply hides content.
 
 // Predefine the variables bellow in order to alter and enable specific features.
-$tree-hidden-namespace: $tree-namespace !default;
+$tree-hidden-namespace:            $tree-namespace !default;
+
+$tree-enable-hidden--responsive:   false !default;
 
 
 
@@ -18,3 +20,30 @@ $tree-hidden-namespace: $tree-namespace !default;
     display: none !important;
     visibility: hidden !important; // [1]
 }
+
+
+
+
+
+@if $tree-enable-hidden--responsive == true {
+
+    // Responsive hidden classes.
+
+    // Loop over our breakpoints defined in _settings.responsive.scss
+    @each $breakpoint in $breakpoints {
+
+        // Get the name of the breakpoint.
+        $alias: nth($breakpoint, 1);
+
+        @include media-query($alias) {
+
+            .#{$tree-hidden-namespace}u-hidden-#{$alias} {
+                display: none !important;
+                visibility: hidden !important;
+            }
+
+        } // Close media query.
+
+    } // Close breakpoints loop.
+
+} // Close hidden--responsive @if.
