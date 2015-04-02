@@ -1,5 +1,9 @@
 # hidden Changelog
 
+## [0.3.1] - 2015-04-02
+
+* `visibility: hidden` declaration is no longer needed.
+
 ## [0.3.0] - 2015-03-31
 
 * Add responsive classes ( off by default).
