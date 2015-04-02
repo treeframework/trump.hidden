@@ -15,10 +15,8 @@ $tree-enable-hidden--responsive:   false !default;
 
 
 
-// 1. Remove from flow (screen readers).
 .#{$tree-hidden-namespace}u-hidden {
     display: none !important;
-    visibility: hidden !important; // [1]
 }
 
 
@@ -39,7 +37,6 @@ $tree-enable-hidden--responsive:   false !default;
 
             .#{$tree-hidden-namespace}u-hidden-#{$alias} {
                 display: none !important;
-                visibility: hidden !important;
             }
 
         } // Close media query.
