@@ -10,14 +10,13 @@ The `hidden` module depends on one other module:
 * [settings.responsive](https://github.com/treeframework/settings.responsive)
 * [tools.responsive](https://github.com/treeframework/tools.responsive)
 
-If you install the `hidden` module using Bower, you will get these dependencies
-at the same time. If not using Bower, please be sure to install and `@import`
-these dependencies in the relevant way.
+If you install the `hidden` module using Bower or npm, you will get these 
+dependencies at the same time. If not using Bower, please be sure to install 
+and `@import` these dependencies in the relevant way.
 
 ## Installation
 
-You can install `hidden` module via Bower, npm, Git Submodule, or copy and
-paste.
+You can install `hidden` module via Bower, npm, or copy and paste.
 
 ### Install using Bower:
 
@@ -35,18 +34,6 @@ Once installed, `@import` into your project in its Trump layer:
 
 ```sh
 $ npm install tree-hidden --save
-```
-
-### Install as a Git Submodule:
-
-```sh
-$ git submodule add git@github.com:treeframework/trump.hidden.git
-```
-
-Once installed, `@import` into your project in its Trump layer:
-
-```scss
-@import "trump.hidden/trump.hidden";
 ```
 
 ### Install via file download
