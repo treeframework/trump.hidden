@@ -48,17 +48,29 @@ Basic usage of the `hidden` module uses the required classes:
 
 ```html
 <ul class="u-hidden">
-    <li>Foo</li>
-    <li>Bar</li>
-    <li>Baz</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
 </ul>
 ```
+
+## Options
 
 To turn responsive feature on, set switch to true (before you `@import` the file):
 
 ```scss
 $tree-enable-hidden--responsive:    true;
 @import "bower_components/tree-hidden/trump.hidden";
+```
+
+For example:
+
+```html
+<ul class="u-hidden@palm">
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+</ul>
 ```
 
 ## Credits
