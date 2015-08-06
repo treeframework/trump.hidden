@@ -2,7 +2,9 @@
 
 ## [0.4.0] - 2015-08-06
 
-* [BREAKING] Add Responsive Suffixes; Old `u-hidden-[palm|lap|lap-and-up|portable|desk|retina]`; New `u-hidden@[palm|lap|lap-and-up|portable|desk|retina]`.
+* [BREAKING] Add Responsive Suffixes
+  * Old `u-hidden-[palm|lap|lap-and-up|portable|desk|retina]` 
+  * New `u-hidden@[palm|lap|lap-and-up|portable|desk|retina]`
 
 ## [0.3.1] - 2015-04-02
 
