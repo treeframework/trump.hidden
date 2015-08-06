@@ -5,25 +5,25 @@
 // Description:   Simply hides content.
 //
 // Blocks:        `u-hidden`
-//                `u-hidden-palm`       // disabled by default
-//                `u-hidden-lap`        // disabled by default
-//                `u-hidden-lap-and-up` // disabled by default
-//                `u-hidden-portable`   // disabled by default
-//                `u-hidden-desk`       // disabled by default
-//                `u-hidden-retina`     // disabled by default
+//                `u-hidden@palm`       // disabled by default
+//                `u-hidden@lap`        // disabled by default
+//                `u-hidden@lap-and-up` // disabled by default
+//                `u-hidden@portable`   // disabled by default
+//                `u-hidden@desk`       // disabled by default
+//                `u-hidden@retina`     // disabled by default
 //
 // Markup:
 //
 // <ul class="u-hidden">
-//     <li>Foo</li>
-//     <li>Bar</li>
-//     <li>Baz</li>
+//     <li>...</li>
+//     <li>...</li>
+//     <li>...</li>
 // </ul>
 //
-// <ul class="u-hidden-palm">
-//     <li>Foo</li>
-//     <li>Bar</li>
-//     <li>Baz</li>
+// <ul class="u-hidden@palm">
+//     <li>...</li>
+//     <li>...</li>
+//     <li>...</li>
 // </ul>
 //
 // =============================================================================
@@ -59,7 +59,7 @@ $tree-enable-hidden--responsive:   false !default;
 
 
 // =============================================================================
-// Blocks: `u-hidden-[palm|lap|lap-and-up|portable|desk|retina]`
+// Blocks: `u-hidden@[palm|lap|lap-and-up|portable|desk|retina]`
 // =============================================================================
 
 @if $tree-enable-hidden--responsive == true {
@@ -74,7 +74,7 @@ $tree-enable-hidden--responsive:   false !default;
 
         @include media-query($alias) {
 
-            .#{$tree-hidden-namespace}u-hidden-#{$alias} {
+            .#{$tree-hidden-namespace}u-hidden\@#{$alias} {
                 display: none !important;
             }
 
